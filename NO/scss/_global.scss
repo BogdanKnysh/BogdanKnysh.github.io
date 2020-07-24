@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	margin: 0; /*забрати відступи всюди*/
+	font-family: 'Gilroy', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+	color: #ffffff;
+	background-image: url("../img/BG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-width: 320px;
+    overflow-x: hidden;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+p {
+	margin: 0 0 10px;
+}
+.container { /*основне поле*/
+	/*width: 100%;*/
+	max-width: 1080px; 
+	margin: 0 auto; /*вирівнювання по центру*/
+    padding: 0 10px;
+    position: relative;
+}
+
