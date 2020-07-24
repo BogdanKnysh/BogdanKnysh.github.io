@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Roboto:400,400i,700&display=swap&subset=latin-ext" rel="stylesheet">
+	<link rel="stylesheet" href="css/normaliza.css">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Landing-Page</title>
+	<meta name="viewport" content"width=device-width, initial-scale=1.0"> <!--width=device-width - для мобільного пристрою ширина сайта буде рівна ширині пристрою
+	initial-scale=1 - відображення таким, яким є, або рівень маштабування 1-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+	<svg style="display: none">
+		<!--svg спрайт - керування іконками-->
+		<symbol id="facebook" viewBox="0 0 430.113 430.114">
+			<g>
+				<path
+					d="M158.081,83.3c0,10.839,0,59.218,0,59.218h-43.385v72.412h43.385v215.183h89.122V214.936h59.805c0,0,5.601-34.721,8.316-72.685c-7.784,0-67.784,0-67.784,0s0-42.127,0-49.511c0-7.4,9.717-17.354,19.321-17.354c9.586,0,29.818,0,48.557,0c0-9.859,0-43.924,0-75.385c-25.016,0-53.476,0-66.021,0C155.878-0.004,158.081,72.48,158.081,83.3z" />
+			</g>
+		</symbol>
+		<symbol id="twitter" viewBox="0 0 430.117 430.118">
+			<g>
+				<path
+					d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568C480.224,136.96,497.728,118.496,512,97.248z" />
+			</g>
+		</symbol>
+		<symbol id="instagram" viewBox="0 0 512 512">
+			<g>
+				<path
+					d="m75 512h362c41.355469 0 75-33.644531 75-75v-362c0-41.355469-33.644531-75-75-75h-362c-41.355469 0-75 33.644531-75 75v362c0 41.355469 33.644531 75 75 75zm-45-437c0-24.8125 20.1875-45 45-45h362c24.8125 0 45 20.1875 45 45v362c0 24.8125-20.1875 45-45 45h-362c-24.8125 0-45-20.1875-45-45zm0 0" />
+				<path
+					d="m256 391c74.4375 0 135-60.5625 135-135s-60.5625-135-135-135-135 60.5625-135 135 60.5625 135 135 135zm0-240c57.898438 0 105 47.101562 105 105s-47.101562 105-105 105-105-47.101562-105-105 47.101562-105 105-105zm0 0" />
+				<path
+					d="m406 151c24.8125 0 45-20.1875 45-45s-20.1875-45-45-45-45 20.1875-45 45 20.1875 45 45 45zm0-60c8.269531 0 15 6.730469 15 15s-6.730469 15-15 15-15-6.730469-15-15 6.730469-15 15-15zm0 0" />
+			</g>
+		</symbol>
+	</svg>
+	<section class="girl-fon">
+		<div class="container">
+			<header class="header">
+				<div class="header__inner">
+					<div class="logo animated fadeInLeft delay-1s">
+						<img src="img/no.png" alt="">
+						<div class="inf">
+							<h2 class="city">Тренажерний зал<br>Київ, Львів, Одеса</h2>
+						</div>
+					</div>
+					<div class="inform animated fadeInRight delay-1s">
+						<div class="tel">
+							<h1 class="telefon">093 084 62 13</h1>
+							<img src="img/allo.png" alt="">
+						</div>
+						<h3 class="data">Щодня з 09<sup>00</sup> до 23<sup>00</sup></h3>
+					</div>
+				</div>
+			</header>
+			<div class="girl1">
+				<div class="slider__down">
+					<h5 class="down">гортай вниз</h5>
+				</div>
+				<div class="circle">
+					<div class="circle__slider wow fadeInDownBig" data-wow-delay="0.5s">
+						<div class="circle__slider-item-1">
+							<div class="circle_slider"></div>
+						</div>
+						<div class="circle__slider-item-2">
+							<div class="circle_slider"></div>
+						</div>
+						<div class="circle__slider-item-3">
+							<div class="circle_slider"></div>
+						</div>
+						<div class="circle__slider-item-4">
+							<div class="circle_slider"></div>
+						</div>
+					</div>
+				</div>
+				<div class="girl1__slider">
+					<div class="girl1__slid">
+						<div class="girl__inner">
+							<div class="girl1__inner">
+								<div>
+									<h2 class="sport">Спортивні</h2>
+									<h2 class="legs">ноги</h2>
+								</div>
+								<div class="search">
+									<div class="search__item-name">
+										<input type="text" name="login" maxlength="25" class="input" id="user1"
+											placeholder="Name">
+									</div>
+									<div class="search__item-email">
+										<input type="text" name="login" maxlength="25" class="input" id="user2"
+											placeholder="e-mail">
+									</div>
+								</div>
+								<div class="search__item-btn">
+									<a class="btn  btn--blue" href="#">Хочу спортивні ніжки</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="girl1__slid">
+						<div class="girl__inner">
+							<div class="girl1__inner">
+								<div>
+									<h2 class="sport">Спортивне</h2>
+									<h2 class="legs">тіло</h2>
+								</div>
+								<div class="search">
+									<div class="search__item-name">
+										<input type="text" name="login" maxlength="25" class="input" id="user1"
+											placeholder="Name">
+									</div>
+									<div class="search__item-email">
+										<input type="text" name="login" maxlength="25" class="input" id="user2"
+											placeholder="e-mail">
+									</div>
+								</div>
+								<div class="search__item-btn">
+									<a class="btn  btn--blue" href="#">Хочу спортивну фігуру</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="girl1__slid">
+						<div class="girl__inner">
+							<div class="girl1__inner">
+								<div>
+									<h2 class="sport">Спортивна</h2>
+									<h2 class="legs">попа</h2>
+								</div>
+								<div class="search">
+									<div class="search__item-name">
+										<input type="text" name="login" maxlength="25" class="input" id="user1"
+											placeholder="Name">
+									</div>
+									<div class="search__item-email">
+										<input type="text" name="login" maxlength="25" class="input" id="user2"
+											placeholder="e-mail">
+									</div>
+								</div>
+								<div class="search__item-btn">
+									<a class="btn  btn--blue" href="#">Хочу спортивну попку</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="girl1__slid">
+						<div class="girl__inner">
+							<div class="girl1__inner">
+								<div>
+									<h2 class="sport">Спортивні</h2>
+									<h2 class="legs">руки</h2>
+								</div>
+								<div class="search">
+									<div class="search__item-name">
+										<input type="text" name="login" maxlength="25" class="input" id="user1"
+											placeholder="Name">
+									</div>
+									<div class="search__item-email">
+										<input type="text" name="login" maxlength="25" class="input" id="user2"
+											placeholder="e-mail">
+									</div>
+								</div>
+								<div class="search__item-btn">
+									<a class="btn  btn--blue" href="#">Хочу спортивні ручки</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="man1__inner wow zoomInfadeIn" data-wow-offset="400" data-wow-duration="2s">
+		<div class="container">
+			<div class="man1__item wow fadeInLeft" data-wow-offset="400">
+				<h2 class="bo">бо в нас</h2>
+				<h2 class="clas">класно</h2>
+			</div>
+		</div>
+		<img class="man wow zoomInfadeIn" data-wow-offset="500" data-wow-duration="2s"" src="img/men1-2.png" alt="">
+	</section>
+	<section class="men2__inner">
+		<img class="time__free wow zoomInDown" data-wow-offset="350" data-wow-duration="1.5s" src="img/free.png" alt="">
+		<div class="container">
+			<div class="slider1__down">
+				<h5 class="down">гортай вниз</h5>
+			</div>
+			<div class="circle1">
+				<div class="circle1__slider">
+					<div class="circle__slider-item-5 wow fadeInLeft" data-wow-offset="50">
+						<div class="circle_slider"></div>
+						<div class="circle_slider__content-5">Мотивуючі тренера</div>
+					</div>
+					<div class="circle__slider-item-6 wow fadeInRight" data-wow-offset="400">
+						<div class="circle_slider"></div>
+						<div class="circle_slider__content-6">Тренажери Interatletika</div>
+					</div>
+				</div>
+			</div>
+			<div class="girl2__slider">
+				<div class="girl1__slid">
+					<div class="girl__inner">
+						<div class="girl2__inner">
+							<div class="search2">
+								<div class="search__item-name">
+									<input type="text" name="login" maxlength="25" class="input" id="user3"
+										placeholder="Лєнка">
+								</div>
+								<div class="search__item-email">
+									<input type="text" name="login" maxlength="25" class="input" id="user3"
+										placeholder="elenaolenok@gmail.com">
+								</div>
+							</div>
+							<div class="search__item-btn">
+								<a class="btn2  btn--blue" href="#">Халявний тиждень мій</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="girl1__slid">
+					<div class="girl__inner">
+						<div class="girl2__inner">
+							<div class="search2">
+								<div class="search__item-name">
+									<input type="text" name="login" maxlength="25" class="input" id="user3"
+										placeholder="Name">
+								</div>
+								<div class="search__item-email">
+									<input type="text" name="login" maxlength="25" class="input" id="user3"
+										placeholder="elenaolenok@gmail.com">
+								</div>
+							</div>
+							<div class="earch__item-btn">
+								<a class="btn2  btn--blue" href="#">Халявний тиждень мій</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="girl2">
+		<div class="container">
+			<div class="slider2__down">
+				<h5 class="down">гортай вниз</h5>
+			</div>
+			<div class="girl3__slider">
+				<div class="girl1__slid">
+					<div class="girl3__inner">
+						<div class="shch__they__olya">
+							<div class="shch__they wow fadeInLeft" data-wow-offset="-600">
+								<h2 class="shch">Щастя, що</h2>
+								<h2 class="they">вони <br>з нами</h2>
+							</div>
+							<div class="olya">
+								<h2 class="ola">Оля.</h2>
+								<h2 class="year">тренується 1 рік</h2>
+								<h2 class="text_infa">Було стрьомно дивитися на себе у дзеркало, тож я сказала НІ. Годі. Ні, не буде більше товстенької Олі. Щось казати про зал немає сенсу.  Бачиш, яка в мене пресуха:) Я у захваті! А ти?</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="girl1__slid">
+					<div class="girl3__inner">
+						<div class="shch__they__olya">
+							<div class="shch__they">
+								<h2 class="shch">Щастя, що</h2>
+								<h2 class="they">вони <br>з нами</h2>
+							</div>
+							<div class="olya">
+								<h2 class="ola">Катя.</h2>
+								<h2 class="year">тренується 1,5 року</h2>
+								<h2 class="text_infa">Було стрьомно дивитися на себе у дзеркало, тож я сказала НІ. Годі. Ні, не буде більше товстенької Каті. Щось казати про зал немає сенсу. Бачиш, яка в мене пресуха:) Я у захваті! А ти?</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="girl1__slid">
+					<div class="girl3__inner">
+						<div class="shch__they__olya">
+							<div class="shch__they">
+								<h2 class="shch">Щастя, що</h2>
+								<h2 class="they">вони <br>з нами</h2>
+							</div>
+							<div class="olya">
+								<h2 class="ola">Леся.</h2>
+								<h2 class="year">тренується 2 роки</h2>
+								<h2 class="text_infa">Було стрьомно дивитися на себе у дзеркало, тож я сказала НІ. Годі. Ні, не буде більше товстенької Лесі. Щось казати про зал немає сенсу. Бачиш, яка в мене пресуха:) Я у захваті! А ти?</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="girl1__slid">
+					<div class="girl3__inner">
+						<div class="shch__they__olya">
+							<div class="shch__they">
+								<h2 class="shch">Щастя, що</h2>
+								<h2 class="they">вони <br>з нами</h2>
+							</div>
+							<div class="olya">
+								<h2 class="ola">Ганна.</h2>
+								<h2 class="year">тренується 2,5 роки</h2>
+								<h2 class="text_infa">Було стрьомно дивитися на себе у дзеркало, тож я сказала НІ. Годі. Ні, не буде більше товстенької Ані. Щось казати про зал немає сенсу. Бачиш, яка в мене пресуха:) Я у захваті! А ти?</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="girl1__slid">
+					<div class="girl3__inner">
+						<div class="shch__they__olya">
+							<div class="shch__they">
+								<h2 class="shch">Щастя, що</h2>
+								<h2 class="they">вони <br>з нами</h2>
+							</div>
+							<div class="olya">
+								<h2 class="ola">Яна.</h2>
+								<h2 class="year">тренується 3 роки</h2>
+								<h2 class="text_infa">Було стрьомно дивитися на себе у дзеркало, тож я сказала НІ. Годі. Ні, не буде більше товстенької Яни. Щось казати про зал немає сенсу. Бачиш, яка в мене пресуха:) Я у захваті! А ти?</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="men3">
+		<div class="container">
+			<div class="btn__inner wow fadeInRight" data-wow-offset="400">
+				<div class="search__item5">
+					<a class="btn1  btn1--red" href="#">Іду тренуватись</a>
+				</div>
+				<h2 class="i">Я ж не гірший за них</h2>
+			</div>
+			<div class="slider3__down">
+				<h5 class="down">гортай вниз</h5>
+			</div>
+			<div class="circle3">
+				<div class="circle3__slider wow fadeInDownBig" data-wow-delay="0.5s" data-wow-offset="600">
+					<div class="circle__slider-item-1 circle3-item-7">
+						<div class="circle_slider"></div>
+						<div class="circle_slider__content-7">Львів</div>
+					</div>
+					<div class="circle__slider-item-2 circle3-item-8">
+						<div class="circle_slider"></div>
+						<div class="circle_slider__content-8">Київ</div>
+					</div>
+					<div class="circle__slider-item-3 circle3-item-9">
+						<div class="circle_slider"></div>
+						<div class="circle_slider__content-9">Одеса</div>
+					</div>
+				</div>
+			</div>
+			<div class="men3__inner">
+				<div class="men3__slider">
+					<div class="girl1__slid">
+						<div class="man3__inner">
+							<div class="men1__inner1">
+								<div class="log">
+									<img src="img/no.png" alt="">
+									<h3 class="zal">Тренажерний <br>зал</h3>
+									<h3 class="lviv">м. Львів <br>площа Ринок 8</h3>
+									<h4 class="fon">050 97 47 121,</h4>
+									<h4 class="kate">спитати Катю</h4>
+								</div>
+							</div>
+							<div class="men1__inner">
+								<h2 class="we">ми тут</h2>
+								<h2 class="come">приходь</h2>
+								<div class="search__men">
+									<div class="search2">
+										<div class="search__item-name">
+											<input type="text" name="login" maxlength="25" class="input" id="user4"
+												placeholder="Лєнка">
+										</div>
+										<div class="search__item-email">
+											<input type="text" name="login" maxlength="25" class="input" id="user4"
+												placeholder="elenaolenok@gmail.com">
+										</div>
+									</div>
+								</div>
+								<div class="search__item__men">
+									<a class="btn3  btn--blue" href="#">Тренуватись безкоштовно</a>
+								</div>
+								<center>
+									<a class="sate" href="#">Перейти на офіційний сайт</a>
+								</center>
+							</div>
+						</div>
+					</div>
+					<div class="girl1__slid">
+						<div class="man3__inner">
+							<div class="men1__inner1">
+								<div class="log">
+									<img src="img/no.png" alt="">
+									<h3 class="zal">Тренажерний <br>зал</h3>
+									<h3 class="lviv">м. Київ <br>вул. Хрещатик 17</h3>
+									<h4 class="fon">098 05 07 112,</h4>
+									<h4 class="kate">спитати Лесю</h4>
+								</div>
+							</div>
+							<div class="men1__inner">
+								<h2 class="we">ми тут</h2>
+								<h2 class="come">приходь</h2>
+								<div class="search__men">
+									<div class="search2">
+										<div class="search__item-name">
+											<input type="text" name="login" maxlength="25" class="input" id="user4"
+												placeholder="Лєнка">
+										</div>
+										<div class="search__item-email">
+											<input type="text" name="login" maxlength="25" class="input" id="user4"
+												placeholder="elenaolenok@gmail.com">
+										</div>
+									</div>
+								</div>
+								<div class="search__item__men">
+									<a class="btn3  btn--blue" href="#">Тренуватись безкоштовно</a>
+								</div>
+								<center>
+									<a class="sate" href="#">Перейти на офіційний сайт</a>
+								</center>
+							</div>
+						</div>
+					</div>
+					<div class="girl1__slid">
+						<div class="man3__inner">
+							<div class="men1__inner1">
+								<div class="log">
+									<img src="img/no.png" alt="">
+									<h3 class="zal">Тренажерний <br>зал</h3>
+									<h3 class="lviv">м. Одеса <br>вул. Дерибасівська 18</h3>
+									<h4 class="fon">097 50 12 211,</h4>
+									<h4 class="kate">спитати Яну</h4>
+								</div>
+							</div>
+							<div class="men1__inner">
+								<h2 class="we">ми тут</h2>
+								<h2 class="come">приходь</h2>
+								<div class="search__men">
+									<div class="search2">
+										<div class="search__item-name">
+											<input type="text" name="login" maxlength="25" class="input" id="user4"
+												placeholder="Лєнка">
+										</div>
+										<div class="search__item-email">
+											<input type="text" name="login" maxlength="25" class="input" id="user4"
+												placeholder="elenaolenok@gmail.com">
+										</div>
+									</div>
+								</div>
+								<div class="search__item__men">
+									<a class="btn3  btn--blue" href="#">Тренуватись безкоштовно</a>
+								</div>
+								<center>
+									<a class="sate" href="#">Перейти на офіційний сайт</a>
+								</center>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__inner">
+				<div class="social wow fadeInUp" data-wow-offset="50"">
+					<a class="social__item" href="#" target="_blank">
+						<svg class="social__icon">
+							<use xlink:href="#facebook"></use>
+						</svg>
+					</a>
+					<a class="social__item" href="#" target="_blank">
+						<svg class="social__icon">
+							<use xlink:href="#instagram"></use>
+						</svg>
+					</a>
+					<a class="social__item" href="#" target="_blank">
+						<svg class="social__icon">
+							<use xlink:href="#twitter"></use>
+						</svg>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src='js/libs.min.js'></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
