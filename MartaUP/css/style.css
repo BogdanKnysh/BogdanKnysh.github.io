@@ -120,7 +120,7 @@ ul, li, a {
 }
 .specialised {
     padding: 55px 0 93px;
-    background-image: url(../img/style1.svg);
+    background-image: url(../img/Style1.svg);
     background-position: left bottom;
     background-repeat: no-repeat;
     color: #202020;
@@ -161,7 +161,7 @@ ul, li, a {
 .advantages {
     padding-top: 64px;
     background-color: #f4f9fd;
-    background-image: url(../img/style2.svg);
+    background-image: url(../img/Style2.svg);
     background-repeat: no-repeat;
     background-position: center right;
 }
